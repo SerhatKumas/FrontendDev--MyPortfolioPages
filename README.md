@@ -1,26 +1,62 @@
-# Portfolio Page Template
+# Serhat Kumas - Frontend Development Portfolio Collection
 
-- One pager portfolio template
-- It containes header, about me, education, skills and contact me sections.
-- On the first part, there are header animation and slide down animation on the first part
-- On the second part there are side bar as an nav bar and about me section
-- On the third part education section is given with the history line animation
-- On the fourth part basic skill part is given
-- As a last part contact form and information are given
+This repository is a comprehensive collection of my personal portfolio and professional projects, showcasing my journey and growth as a Software Developer and Engineer across different eras.
 
+## 📂 Project Overview
 
-## Technologies
+The repository is organized into several distinct versions of my portfolio, each representing a different stage in my development career:
 
-- [@HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
-- [@CSS 5](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [@Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+### [MyPortfolioPage-2022](./MyPortfolioPage-2022)
+A foundational, responsive one-pager template.
+- **Key Features**: About Me, Education timeline, Skills section, and Contact form.
+- **Tech Stack**: HTML5, CSS3, Bootstrap 5.
 
+### [MyPortfolioPage-2024](./MyPortfolioPage-2024)
+A modern, polished responsive website with functional backend integration.
+- **Key Features**: Education and experience timelines, project filtering, AOS (Animate On Scroll) animations, and a PHP-based contact form.
+- **Tech Stack**: HTML5, CSS3, JavaScript (ES6+), Bootstrap, jQuery, PHP.
 
-# Hi, I'm Serhat the Author! 👋
+### [MyPortfolioPage-2026](./MyPortfolioPage-2026)
+An advanced, highly interactive, and visually stunning Single-Page Application (SPA).
+- **Key Features**: 
+  - **3D Hero Section**: Interactive 3D MacBook rendered with Three.js.
+  - **The 3D Lab**: A playground for inspecting 3D models.
+  - **The Game Lab**: Canvas-based games (Basketball, Table Tennis, Space Invaders).
+  - **The Music Lab**: Web Audio API synthesizer.
+  - **Glassmorphism UI**: Modern "frosted glass" design system with GSAP animations.
+- **Tech Stack**: Vanilla HTML/CSS/JS, Three.js, GSAP (GreenSock), Web Audio API.
 
+### [MyPortfolioPageForUniversityClub-2022](./MyPortfolioPageForUniversityClub-2022)
+An educational template created for the İYTE İnovasyon Topluluğu students to learn web development.
+- **Tech Stack**: HTML, CSS, Bootstrap 5.
 
-## 🔗 Connection Links
+---
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/serhatkumas/)
+## 🚀 Getting Started
 
-[![@Github](https://img.shields.io/badge/github-0A66C2?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/serhatkumas)
+Most of these projects can be viewed by simply opening the `index.html` files in a browser. However, for the **2026 Version**, a local development server is required due to the use of ES6 Modules and Three.js assets.
+
+### Running the 2026 Version
+1. Navigate to the `MyPortfolioPage-2026` directory.
+2. Run a local server:
+   ```bash
+   # Using Python
+   python3 -m http.server 8080
+   
+   # Using Node.js
+   npx http-server . -p 8080
+   ```
+3. Open `http://localhost:8080` in your browser.
+
+---
+
+## 📫 Contact Section
+
+I'm always open to collaborations, interesting projects, or just a friendly chat!
+
+- **Email**: [serhatkumas@outlook.com](mailto:serhatkumas@outlook.com)
+- **LinkedIn**: [linkedin.com/in/serhatkumas](https://www.linkedin.com/in/serhatkumas/)
+- **GitHub**: [@SerhatKumas](https://github.com/SerhatKumas)
+
+---
+*Created by Serhat Kumas*
